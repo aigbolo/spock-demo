@@ -1,6 +1,6 @@
 # Spock Framework spike 
 
-##Good reasons to write test
+## Good reasons to write test
 
 - **they’re checking if a code is working**  — the most basic one, we write them to make sure that implementation of our code is working,
 - **regression**  — when we add new functionality or refactor an application we want to make sure that old features are working as previously,
@@ -8,8 +8,8 @@
 - **documentation —**  tests might be great, living documentation. They describe how an application works and make sure to keep it that way. To keep it that way they need to be written in a very simple way, so that even non-developers could read them, and that might be a challenge.
 ---
 
-###Spock Framework VS JUnit
-####Star on Github
+### Spock Framework VS JUnit
+#### Star on Github
 
 `Spock 3.1k`  `JUnit5 5k`  
 
