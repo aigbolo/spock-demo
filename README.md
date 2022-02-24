@@ -1,4 +1,4 @@
-# spock-demo
+# Spock Framework spike 
 
 ##Good reasons to write test
 
@@ -15,20 +15,26 @@
 
 ### JUnit vs Spock Framework: What are the differences?
 
-**JUnit:** *A programmer-oriented testing framework for Java*. JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
-**Spock Framework:** *The Enterprise-ready testing and specification framework*. It is a testing and specification framework for Java and Groovy applications. What makes it stand out from the crowd is its beautiful and highly expressive specification language. It is compatible with most IDEs, build tools, and continuous integration servers.
-JUnit and Spock Framework can be primarily classified as **"Testing Frameworks"** tools.
+**JUnit:** *A programmer-oriented testing framework for Java*. 
+JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
+
+**Spock Framework:** The Enterprise-ready testing and specification framework. 
+It is a testing and specification framework for Java and Groovy applications. 
+What makes it stand out from the crowd is its beautiful and highly expressive specification language. 
+It is compatible with most IDEs, build tools, and continuous integration servers.
+
+> JUnit and Spock Framework can be primarily classified as Testing Frameworks tools.
 
 ### Spock learning curve
 
-Spock is a testing framework writing in Groovy. So that we can reference to groovy learing curve:
-
+Spock is a testing framework writing in Groovy. 
 > ****Flat learning curve:****  Concise, readable and expressive syntax, easy to learn for Java developers
 > 
 
 ### Debugging  and Troubleshooting
 
-Groovy comes with a rather *powerful variant* of `assert` also known as *power assertion statement*. Groovy’s power `assert` differs from the Java version in its output given the boolean expression validates to `false`
+Groovy comes with a rather *powerful variant* of `assert` also known as *power assertion statement*. 
+Groovy’s power `assert` differs from the Java version in its output given the boolean expression validates to `false`
 
 ``` groovy
 def "one plus one should equal two"() {
